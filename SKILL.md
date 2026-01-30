@@ -11,7 +11,7 @@ Use Blinko as the single source of truth for notes.
 
 Env vars (Gateway env is OK):
 - `BLINKO_API_KEY` (required)
-- `BLINKO_BASE_URL` (optional; default `https://blinko.infodeal.fr`)
+- `BLINKO_BASE_URL` (optional; default `https://blinko.exemple.com`)
 
 ## Core workflow
 
