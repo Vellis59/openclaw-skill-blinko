@@ -3,7 +3,7 @@
 
 Uses env:
 - BLINKO_API_KEY (required)
-- BLINKO_BASE_URL (optional, default: https://blinko.infodeal.fr)
+- BLINKO_BASE_URL (optional, default: https://blinko.exemple.com)
 
 Examples:
   ./blinko.py list --page 1 --size 20
@@ -22,7 +22,7 @@ import urllib.request
 import urllib.error
 from typing import Any, Dict, List, Optional
 
-DEFAULT_BASE_URL = "https://blinko.infodeal.fr"
+DEFAULT_BASE_URL = "https://blinko.exemple.com"
 
 
 def _get_env(name: str, default: Optional[str] = None) -> str:
